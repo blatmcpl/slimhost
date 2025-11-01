@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlimHost.pl - Hosting Serwerów Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <nav class="mobile-nav">
+        <div class="nav-header">
+            <a href="index.html" class="logo-link">
+                <img src="img/logo.png" alt="SlimHost.pl Logo" class="logo">
+                <span class="logo-text">SlimHost.pl</span>
+            </a>
+            <button class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Strona Główna</a>
+            <a href="index.html#why-us">Zaawansowane funkcje</a>
+            
+            <div class="mobile-nav-item-dropdown">
+                <a href="#" class="mobile-nav-dropdown-toggle">Oferta <i class="fas fa-caret-down"></i></a>
+                <div class="mobile-nav-submenu">
+                    <a href="minecraft.html">Minecraft</a>
+                    <a href="botydiscord.html">Boty Discord</a>
+                </div>
+            </div>
+            <a href="regulamin.html">Regulamin</a>
+            <a href="https://panel.slimhost.pl" class="client-panel-button">Panel Klienta</a>
+        </div>
+    </nav>
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html" class="logo-link">
+                <img src="img/logo.png" alt="SlimHost.pl Logo" class="logo">
+                <span class="logo-text">SlimHost.pl</span>
+            </a>
+        </div>
+        <div class="nav-center">
+            <a href="index.html">Strona Główna</a>
+            <a href="index.html#why-us">Zaawansowane funkcje</a>
+            
+            <div class="nav-item-dropdown">
+                <a href="#" class="nav-dropdown-toggle">Oferta <i class="fas fa-caret-down"></i></a>
+                <div class="nav-dropdown-menu">
+                    <a href="minecraft.html" class="dropdown-offer-item">
+                        <img src="img/minecraft.png" alt="Minecraft">
+                        <span>Minecraft</span>
+                    </a>
+                    <a href="botydiscord.html" class="dropdown-offer-item">
+                        <img src="img/basic.png" alt="Boty Discord">
+                        <span>Boty Discord</span>
+                    </a>
+                </div>
+            </div>
+            <a href="regulamin.html">Regulamin</a>
+        </div>
+        <div class="nav-right">
+            <a href="https://panel.slimhost.pl" class="client-panel-button">Panel Klienta</a>
+        </div>        
+    </nav>
+
+    <div class="form-container">
+        <h1>Zaloguj się</h1>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Hasło</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="form-button">Zaloguj się</button>
+        </form>
+        <p class="form-switch-link">
+            Nie masz konta? <a href="rejestracja.html">Zarejestruj się</a>
+        </p>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="img/logo.png" alt="SlimHost.pl Logo" class="footer-logo">
+                <p class="footer-description">SlimHost - Twój niezawodny hosting.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>SlimHost</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Strona Główna</a></li>
+                    <li><a href="index.html#why-us">Zaawansowane funkcje</a></li>
+                    <li><a href="index.html#offer">Oferta</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Oferta</h4>
+                <ul class="footer-links">
+                    <li><a href="minecraft.html">Minecraft</a></li>
+                    <li><a href="#">Boty Discord</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Kontakt</h4>
+                <ul class="footer-links">
+                    <li><a href="https://discord.gg/slimhost">Discord</a></li>
+                    <li>support@slimhost.pl</li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Dane podmiotu:</h4>
+                <ul class="footer-links">
+                    <li>Usługi świadczone w ramach działalności nierejestrowanej.</li>
+                    <li>Nie jesteśmy zarejestrowanym przedsiębiorcą.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-copyright">&copy; 2025 SlimHost.pl. Wszelkie prawa zastrzeżone.</p>
+            <p class="footer-author">
+                <a href="https://guns.lol/szym0neek">szym0neek</a> - Wykonanie strony
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
